@@ -31,7 +31,7 @@ client.on('interactionCreate', async (interaction) => {
     await member.voice.setChannel(jailChannel);
     await member.voice.setMute(true);
     jailedUsers.add(member.id);
-    await interaction.reply(`${member.user.tag} has been Msjon.`);
+    await interaction.reply(`${member.user.tag} has been Msjoon.`);
   } else if (commandName === 'unsjn') {
     const member = options.getMember('target');
     if (jailedUsers.has(member.id)) {
